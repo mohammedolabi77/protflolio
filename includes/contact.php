@@ -30,7 +30,7 @@
                     </div>
                     <div class="col-md-5 ">
                         <form id="myForm" action="https://formsubmit.co/mohammedolabi77@gmail.com" method="POST">
-                            <input type="hidden" name="_next" value="thankx.php">
+                            <input type="hidden" name="_next" value="http://mohammedolabi.42web.io/thankx.php">
                             <input type="hidden" name="_template" value="box">
                             <input type="hidden" name="_captcha" value="false">
                             <input type="hidden" name="_subject" value="New email from your websit sur!">

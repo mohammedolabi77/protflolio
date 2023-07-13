@@ -3,7 +3,7 @@ $page = substr($_SERVER['SCRIPT_NAME'], strrpos($_SERVER['SCRIPT_NAME'], "/") + 
 ?>
 <div class="side-nav">
     <div class="position-absolute ">
-        <a href="../home.php" class="side-link  <?= $page == "home" ? 'active' : '' ?>"><img src="../images/home.png"
+        <a href="../index.php" class="side-link  <?= $page == "index" ? 'active' : '' ?>"><img src="../images/home.png"
                 alt="home"><span class="hover-label">Home</span></a>
         <a href="../pages/about.php" class="side-link <?= $page == "about" ? 'active' : '' ?> "><img
                 src="../images/about me.png" alt="about"><span class="hover-label">About</span></a>
