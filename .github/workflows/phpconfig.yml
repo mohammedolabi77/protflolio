@@ -12,7 +12,7 @@ name: Build and deploy PHP app to Azure Web App
 env:
   AZURE_WEBAPP_NAME: protfolio   # set this to your application's name
   AZURE_WEBAPP_PACKAGE_PATH: 'https://mohammedolabi77.github.io/protfolio/'      # set this to the path to your web app project, defaults to the repository root
-  PHP_VERSION: '8.1'                  # set this to the PHP version to use
+  PHP_VERSION: '8.0'                  # set this to the PHP version to use
 
 on:
   push:
