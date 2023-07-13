@@ -73,14 +73,14 @@
             <div class="row justify-content-center">
                 <div class="d-flex justify-content-around">
                     <h2 class="about-me text-center">
-                        <span class="about-mee " id="resume" style="cursor: pointer;" onclick="showCv()">
+                        <button class="about-mee  border-0 " style="color:white;" id="resume" style="cursor: pointer;" onclick="showCv()">
                             Resume
-                        </span>
+                        </button>
                     </h2>
                     <h2 class="about-me text-center">
-                        <span class="about-mee active" id="cv" style="cursor: pointer;" onclick="showCv()">
+                        <button class="about-mee  border-0 active" style="color:white;" id="cv" style="cursor: pointer;" onclick="showCv()">
                             CV
-                        </span>
+                        </button>
                     </h2>
                 </div>
                 <!-- #################### CV START ###################### -->
@@ -715,8 +715,12 @@
             </div>
         </div>
 
+        <!-- Contactme Start  -->
 
-        <script>
+        <?php 
+    include "../includes/footer.php";
+    ?>
+            <script>
         function showCv() {
             document.querySelector('#cv').classList.toggle('active');
             document.querySelector('#cv-cont').classList.toggle('active');
@@ -724,9 +728,3 @@
             document.querySelector('#resume-cont').classList.toggle('active');
         }
         </script>
-
-        <!-- Contactme Start  -->
-
-        <?php 
-    include "../includes/footer.php";
-    ?>

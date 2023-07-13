@@ -93,18 +93,18 @@
                     </div>
 
                     <div class="nav-link text-center mt-0" style="width:100%">
-                        <a class="link fs-4" href="projects/CV/CV.pdf" download="CV.pdf">
+                        <a class="link fs-4" href="../Projects/CV/CV.pdf" download="CV.pdf">
                             Download
                             My Cv</a>
                     </div>
                     <div class="nav-link text-center mt-1" style="width:100%">
-                        <a class="link fs-4" href="projects/CV/Resume.pdf" download="Resume.pdf">
+                        <a class="link fs-4" href="../Projects/Resume/Resume.pdf" download="Resume.pdf">
                             Download
                             My Resume</a>
                     </div>
 
                 </div>
-                <img src="../images/my_photo2.png"
+                <img src="../images/my_photo1.png"
                     class="photo gap5 col-xl-4 col-lg-4 col-md-3 d-xl-flex d-lg-flex d-md-flex d-sm-none">
             </div>
         </div>
